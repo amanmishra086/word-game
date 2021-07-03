@@ -149,7 +149,7 @@ async function initiateGame(defcount , syncount , score,wordName){
             
     }
 
-    const input=prompt("Enter your Guess\n");
+    const input=prompt("Enter your Guess :-  ");
     if(input==wordName){
         score+=10;
         console.log("CORRECT ANSWER\n");
@@ -168,7 +168,7 @@ async function initiateGame(defcount , syncount , score,wordName){
         console.log("2-HINT");
         console.log("3-SKIP");
 
-        let input=prompt("ENTER VALID OPTION:-\n");
+        let input=prompt("ENTER VALID OPTION:-  ");
 
         if(input=='1'){
             startGame(0,0,0);
